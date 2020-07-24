@@ -1,22 +1,23 @@
 export const MenuItems = [
     {
-        title: 'Home',
+        title: 'צרו קשר',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Services',
+        title: 'שירותים',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Products',
+        title: '?מי אנחנו',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Contact US',
+        title: 'דף הבית',
         url: '#',
         cName: 'nav-links'
     },
+    
 ]
