@@ -1,5 +1,5 @@
 .NavbarItems{
-    background: linear-gradient(90deg, rgb(110,94,254) 0% , rgba(73,63,252,1) 100%);
+    background: #03A9F4;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@
         transition: all .5s ease;
     }
     .nav-menu.active{
-        background: #6668f4;
+        background: #03A9F4;
         left: 0;
         opacity: 1;
         transition: all .5s ease;
@@ -76,7 +76,7 @@
         display: table;
     }
     .nav-links:hover{
-        background-color: #7577fa;
+        background-color: #B3E5FC;
         border-radius: 0;
     }
     .menu-icon{
