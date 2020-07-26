@@ -19,18 +19,28 @@ export default function Hero() {
             loop={true}
             >
                 <div className="item">
-                    <h1>גדשדג</h1>
-                    <img src={electricity}></img>
-                
+                    <div className="wrapper">    
+                        <h1 className="title-item"> .מצבעים קריאות שירות של שקע עובד ועד בניה של בתים שיפוצים ותוספות</h1>
+                        <img className="img-item" src={electricity}></img>
+                    </div>
                 </div>
                 <div className="item">
-                    <img src={controlling}></img>
+                    <div className="wrapper">    
+                            <h1 className="title-item"> .אנו מתרינים, מתכנתים ומוכרים ציוד חכם לבית </h1>
+                        <img className="img-item" src={controlling}></img>
+                    </div>
                 </div>
                 <div className="item">
-                    <img src={network}></img>
+                    <div className="wrapper">    
+                                <h1 className="title-item">.אנו דואגים לכיסוי רשת מלא בכל הבית ובחוץ </h1>
+                        <img className="img-item" src={network}></img>
+                    </div>
                 </div>
                 <div className="item">
-                    <img src={alarm}></img>
+                    <div className="wrapper">    
+                        <h1 className="title-item"> .מכוונים את המערכת כך שהבית עובד בשבילך ולא אתה בשבילו</h1>
+                        <img className="img-item" src={alarm}></img>
+                    </div>
                 </div>
                 
             </OwlCarousel>

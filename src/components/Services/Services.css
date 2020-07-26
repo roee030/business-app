@@ -1,0 +1,23 @@
+.services-warper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.services-title{
+    display: block;
+    
+    padding: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5rem;
+
+}
+.service{
+    border: black solid 2px;
+    
+    width: 50vw;
+    text-align: center;
+    margin: 1rem 1.2rem;
+}
