@@ -17,6 +17,7 @@ export default function Hero() {
             items='1'
             autoplay={true}
             loop={true}
+            dots	={false}
             >
                 <div className="item">
                     <div className="wrapper">    
