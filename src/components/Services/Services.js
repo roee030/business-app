@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 import electricity from '../../fontsAndIcons/bolt-solid.svg';
-
+import Contact from '../Contact-popup/Contact_popup';
 import house from '../../fontsAndIcons/laptop-house-solid.svg';
 import camera from '../../fontsAndIcons/eye-solid.svg';
 import alarm from '../../fontsAndIcons/bell-solid.svg';

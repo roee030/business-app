@@ -4,6 +4,7 @@
     justify-content: center;
     align-content: center;
 }
+
 .service_warper{
     background-image: linear-gradient(to right bottom ,rgba(0, 68, 255, 0.2),rgba(216, 226, 80, 0.685)),url('../../images/wallpaper_lightning.jpg');
     

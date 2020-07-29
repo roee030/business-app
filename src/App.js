@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar.js';
 import Hero from './components/Hero/Hero.js';
 import Services from './components/Services/Services.js';
-import Contact from './components/Contact-popup/Contact_popup.js';
 function App() {
 
   return (
@@ -11,7 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Services/>
-      <Contact/>
+     
     </div>
   );
 }
