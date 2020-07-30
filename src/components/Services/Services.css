@@ -1,15 +1,15 @@
-.services-warper{
+.services-warper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
 
-.service_warper{
-    background-image: linear-gradient(to right bottom ,rgba(0, 68, 255, 0.2),rgba(216, 226, 80, 0.685)),url('../../images/wallpaper_lightning.jpg');
-    
+.service_warper {
+    background-image: linear-gradient(to right bottom, rgba(0, 68, 255, 0.2), rgba(216, 226, 80, 0.685)), url('../../images/wallpaper_lightning.jpg');
 }
-.services-title{
+
+.services-title {
     display: block;
     font-weight: 800;
     padding: 2rem;
@@ -17,37 +17,34 @@
     text-decoration: underline;
     font-size: 5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
-.service-img{
+
+.service-img {
     width: 10rem;
     padding: 1.3rem 0;
 }
-.service-img:hover{
+
+.service-img:hover {
     transform: scale(1.2);
     transition: all .5s ease;
-
 }
-.service{
+
+.service {
     border: black solid 2px;
     font-size: 1.2rem;
     width: 50vw;
-    padding: 2rem 1rem; 
+    padding: 2rem 1rem;
     border-radius: 20px;
     text-align: center;
     margin: 1rem 1.2rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-.service h1 ,.service h3{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+.service h1, .service h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 2rem;
 }
 
-.service-title{
+.service-title {
     font-size: 3rem !important;
 }
