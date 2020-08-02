@@ -8,7 +8,7 @@
 	position: absolute;
 	top: 0;
 	z-index: 1;
-	background: #0372a5b6;
+	background: #004399;
 }
 
 .contact-img {
@@ -37,7 +37,9 @@
 	width: 100%;
 	padding: 2rem;
 	margin-bottom: 10px;
-	background: #ffffff;
+	color: white;
+	background: #dd9933;
+	font-size: 2.2rem;
 	border: none;
 	border-radius: 20px;
 }
@@ -45,7 +47,9 @@
 .contact-WA {
 	width: 100%;
 	padding: 2rem;
-	background: #ffffff;
+	color: white;
+	font-size: 2.2rem;
+	background: #dd9933;
 	border: none;
 	border-radius: 20px;
 }

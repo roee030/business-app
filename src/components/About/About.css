@@ -1,0 +1,15 @@
+.About-wrapper {
+	height: 30vh;
+}
+.About-header {
+	font-size: 8rem;
+	text-align: center;
+	color: #c6c6c6;
+	text-decoration: underline;
+	text-decoration-color: #e21c21;
+	padding-bottom: 1rem;
+}
+.About-text {
+	text-align: center;
+	font-size: 3rem;
+}
