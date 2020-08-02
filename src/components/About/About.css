@@ -28,3 +28,8 @@
 
 	background-size: cover;
 }
+@media (max-width: 700px) {
+	.About-wrapper {
+		background-image: url(../../images/wallpaper_lightning.jpg);
+	}
+}
