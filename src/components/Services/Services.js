@@ -11,7 +11,7 @@ import summary from '../../fontsAndIcons/summary.png';
 export default function Services() {
 	return (
 		<div className="service_warper">
-			<h1 className="services-title"> .השירותים שלנו</h1>
+			<h1 className="services-title"> השירותים שלנו</h1>
 			<div className="services-warper">
 				<div className="service">
 					<img className="service-img" src={electricity}></img>
