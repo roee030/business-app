@@ -24,7 +24,7 @@
 	font-weight: bold;
 	color: white;
 	padding: 5rem;
-
+	direction: rtl;
 	background-size: cover;
 }
 @media (max-width: 700px) {
