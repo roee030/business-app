@@ -8,7 +8,7 @@ import Footer from './components/Contact-section/Contact.js';
 import ConnectionNavbar from './components/Connection/Connection.js';
 function App() {
 	return (
-		<div className="App" id="home">
+		<div className="App">
 			<ConnectionNavbar />
 			<Navbar />
 			<Hero />
