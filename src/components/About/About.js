@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 export default function About() {
 	return (
-		<div className="About-wrapper">
+		<div className="About-wrapper" id="about-us">
 			<div className="About-header">מי אנחנו</div>
 			<div className="About-text">
 				רועי הררי חשמלאי המחזיק ברישיון חשמל בתוקף מטעם משרד העבודה,

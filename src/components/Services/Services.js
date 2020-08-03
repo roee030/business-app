@@ -10,7 +10,7 @@ import summary from '../../fontsAndIcons/summary.png';
 
 export default function Services() {
 	return (
-		<div className="service_warper">
+		<div className="service_warper" id="services">
 			<div className="services-title"> השירותים שלנו</div>
 			<div className="services-warper">
 				<div className="service">

@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 export default function Contact() {
 	return (
-		<div className="contact-wrapper">
+		<div className="contact-wrapper" id="contact">
 			<div className="contact-header">צרו קשר</div>
 			<div className="info-wrapper">
 				<div className="contact-text">
