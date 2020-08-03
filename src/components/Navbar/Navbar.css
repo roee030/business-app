@@ -1,5 +1,4 @@
 .NavbarItems {
-	margin-top: 25px;
 	background: #004399;
 	height: 80px;
 	display: flex;
@@ -52,6 +51,7 @@
 @media screen and (max-width: 620px) {
 	.NavbarItems {
 		position: relative;
+		margin-top: 25px;
 	}
 	.nav-menu {
 		display: flex;
