@@ -38,7 +38,7 @@ export default function Contact() {
 			</div>
 
 			<div className="contact-text my-linkedin">
-				© 2020 by Roee Angel. for contact{' '}
+				© 2020 This site made by Roee Angel. for contact{' '}
 				<a href="https://www.linkedin.com/in/roee-angel-3b5b6913a/">
 					Linkedin
 				</a>

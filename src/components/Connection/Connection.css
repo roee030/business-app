@@ -1,6 +1,7 @@
-.miniNavbar {
-	background: #0288d1;
+.connection-tools {
+	/* background: #0288d1; */
 	display: flex;
+	width: 100%;
 	color: #ffffff;
 	justify-content: center;
 	align-content: center;
@@ -23,7 +24,7 @@
 }
 
 .PhoneLogo:hover {
-	background-color: rgb(37, 85, 218);
+	/* background-color: rgb(37, 85, 218); */
 }
 
 .WhatsappLogo {
@@ -31,13 +32,40 @@
 	margin: 0 6px;
 }
 
-/* @media screen and (max-width: 620px) {
+@media screen and (max-width: 620px) {
 	.miniNavbar {
 		display: flex;
 		position: fixed;
-		top: 0;
-		left: -100%;
+		bottom: 0;
+		opacity: .7;
 		width: 100%;
 		z-index: 20;
 	}
-} */
+	.connection-tools {
+		display: flex;
+		flex-direction: column;
+	}
+	.Phonebox {
+		background: linear-gradient(120deg, #68217a, #FFFFFF);
+		width: 100%;
+		display: flex;
+		margin-bottom: 15px;
+		padding: 1rem;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		text-decoration: none;
+		color: #1900ff;
+	}
+	.whatsappbox {
+		background: linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA, #EDF8F5, #ffffff);
+		padding: 1rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		text-decoration: none;
+		text-align: center;
+		color: #001aff;
+	}
+}
