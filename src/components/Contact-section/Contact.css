@@ -1,5 +1,6 @@
 .contact-wrapper {
 	background-color: #2e2f31;
+	padding-bottom: 10rem;
 }
 
 .info-wrapper {
@@ -8,20 +9,48 @@
 	justify-content: center;
 	align-items: center;
 	line-height: 1.6;
-	direction: rtl;
+}
+
+.location__info {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	align-content: center;
+}
+
+.icon {
+	fill: white;
+	height: 3rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
 }
 
 .contact-text {
 	font-size: 3rem;
 	text-align: center;
 	color: white;
+	direction: rtl;
+}
+
+.footer_wrapper {
+	margin: 7rem auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.business_card {
+	height: 15rem;
+	width: 30rem;
 }
 
 .contact-header {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	font-size: 8rem;
+	font-weight: bold;
 	text-align: center;
-	color: #c6c6c6;
+	color: white;
 	text-decoration: underline;
 	text-decoration-color: #e21c21;
 	padding-bottom: 1rem;
@@ -33,4 +62,16 @@
 
 .my-linkedin a {
 	color: white;
+}
+
+@media (max-width: 730px) {
+	.footer_wrapper {
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+	.business_card {
+		margin-top: 2rem;
+		align-self: center;
+	}
 }
