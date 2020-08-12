@@ -11,17 +11,19 @@
 }
 
 .contact {
+	height: 70vh;
 }
 
 .title-item {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
 	color: white;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 800;
+	direction: rtl;
 	font-size: 3rem;
 	background: rgba(36, 36, 41, 0.4);
 }
@@ -29,7 +31,7 @@
 .img-item {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: center/cover;
 }
 
 @media screen and (max-width: 1000px) {

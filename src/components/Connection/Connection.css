@@ -7,9 +7,11 @@
 	align-items: center;
 	display: none;
 }
+
 .connection-tools {
-	margin-top: 7px;
+	/* margin-top: 7px; */
 }
+
 .contact {
 	align-items: flex-start;
 	font-family: 'Rubik', sans-serif;
@@ -19,6 +21,7 @@
 	width: 2rem;
 	margin: 0 6px;
 }
+
 .PhoneLogo:hover {
 	background-color: rgb(37, 85, 218);
 }
@@ -27,13 +30,14 @@
 	width: 2rem;
 	margin: 0 6px;
 }
-@media screen and (max-width: 620px) {
+
+/* @media screen and (max-width: 620px) {
 	.miniNavbar {
 		display: flex;
 		position: fixed;
 		top: 0;
-		left: 0;
+		left: -100%;
 		width: 100%;
 		z-index: 20;
 	}
-}
+} */

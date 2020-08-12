@@ -3,6 +3,7 @@ import { MenuItems } from './MenuItems.js';
 import './Navbar.css';
 import Connection from '../Connection/Connection.js';
 import Logo from '../../fontsAndIcons/logo.png';
+import Logo_black from '../../images/logo_black.jpeg';
 import Bars from '../../fontsAndIcons/bars-solid.svg';
 import Close from '../../fontsAndIcons/times-solid.svg';
 
@@ -21,7 +22,7 @@ class Navbar extends Component {
 				<nav className="NavbarItems">
 					<h1 className="navbar-logo">
 						{' '}
-						<img className="Logo" src={Logo} alt="logo"></img>
+						<img className="Logo" src={Logo_black} alt="logo"></img>
 					</h1>
 					<ul
 						className={
@@ -42,12 +43,14 @@ class Navbar extends Component {
 							);
 						})}
 					</ul>
+
 					<img
 						className="menu-icon"
 						onClick={handleClick}
 						src={this.state.clicked ? Close : Bars}
 						alt="sidebar"
 					></img>
+					<span className="navbar__religion__text">בס"ד</span>
 				</nav>
 			</>
 		);

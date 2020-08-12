@@ -13,30 +13,24 @@ export default function Services() {
 		<div className="service_warper" id="services">
 			<div className="services-title"> השירותים שלנו</div>
 			<div className="services-warper">
-				<div className="service">
+				<div className="service service0">
 					<img className="service-img" src={electricity}></img>
 					<h1 className="service-title"> חשמל </h1>
-					<h3>
-						{' '}
-						החל מקריאות שירות של שקע של עובד ועד בניה של בתים
-						מההתחלה. שיפוצים, תוספות.{' '}
-					</h3>
+					<h3> החל מקריאות שירות ועד בניה, שיפוצים ותוספות. </h3>
 				</div>
 
-				<div className="service">
+				<div className="service service1">
 					<img className="service-img" src={house}></img>
 					<h1 className="service-title"> חשמל חכם </h1>
 					<h3>
 						{' '}
 						אנו עובדים עם תקן KNX, תקן אירופאי, חשמל חכם קווי ואמין.
-						אנו מתרינים, מתכנתים ומוכרים ציוד חכם לבית. בשלב הבסיסי
-						יש שליטה מכל מפסק על כל מעגל חשמלי בבית. כל מפסק יכול
-						להיות עד 12 לחצנים עם 12 אפשרויות שונות. תאורה, תריסים,
-						תרחישים.{' '}
+						<br />
+						מתקינים, מתכנתים ומוכרים ציוד חכם.{' '}
 					</h3>
 				</div>
 
-				<div className="service">
+				<div className="service service2">
 					<img className="service-img" src={camera}></img>
 					<h1 className="service-title"> מצלמות </h1>
 					<h3>
@@ -47,37 +41,33 @@ export default function Services() {
 					</h3>
 				</div>
 
-				<div className="service">
+				<div className="service service3">
 					<img className="service-img" src={alarm}></img>
 					<h1 className="service-title"> אזעקות </h1>
 					<h3>
 						{' '}
-						בעזרת חיישנים ניתן לקבל תמונה מלאה של כל דבר שקורה בבית.
 						מכוונים את המערכת כך שהבית עובד בשבילך ולא אתה בשבילו.
 						בעזרת תכנון נכון ניתן לדעת בדיוק מה קורה בבית. אפשר גם
 						לסנן חיות שמסתובבות בבית כגון כלבים או חתולים.{' '}
 					</h3>
 				</div>
 
-				<div className="service">
+				<div className="service service4">
 					<img className="service-img" src={network}></img>
 					<h1 className="service-title"> רשת </h1>
 					<h3>
 						{' '}
 						הכל מתחיל ונגמר ברשת טובה בבית. אנו דואגים לכיסוי רשת
-						מלא בכל הבית ובחוץ, כולל ניהול רשת שמחבר אותך לאנטנה
-						הקרובה ביותר ועל ידי כך לקל את המקסימום מהרשת הביתית
-						שלך.{' '}
+						איכותית ומלאה בכל הבית ובחוץ.{' '}
 					</h3>
 				</div>
 
-				<div className="service">
+				<div className="service service5">
 					<img className="service-img" src={summary}></img>
 					<h1 className="service-title"> סיכום </h1>
 					<h3>
 						{' '}
-						אצל זיו ודולב ניתן לקבל מענה לכל ההיבט החשמלי בבית. הכל
-						תחת כיפה אחת.{' '}
+						אצל זיו ודולב ניתן לקבל מענה עבור כל ההיבט החשמלי בבית.{' '}
 					</h3>
 				</div>
 			</div>

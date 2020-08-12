@@ -5,8 +5,11 @@ export default function Contact() {
 		<div className="contact-wrapper" id="contact">
 			<div className="contact-header">צרו קשר</div>
 			<div className="info-wrapper">
-				<div className="contact-text">
-					מיקום: אלישיב, עמק חפר ישראל.
+				<div className="location__info">
+					<i class="fas fa-map-marker-alt"></i>
+					<div className="contact-text">
+						מיקום: אלישיב, עמק חפר ישראל.
+					</div>
 				</div>
 				<div className="contact-text">
 					זיו 0541234567 דולב 0541234567
