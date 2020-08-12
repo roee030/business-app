@@ -13,13 +13,14 @@
 .services-title {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	display: block;
-	font-size: 8rem;
+	font-size: 6rem;
 	font-weight: bold;
 	text-align: center;
 	color: #000000;
 	text-decoration: underline;
 	text-decoration-color: #e21c21;
 	padding-bottom: 1rem;
+	white-space: nowrap;
 }
 
 .service-img {
