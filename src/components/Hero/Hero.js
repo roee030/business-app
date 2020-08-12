@@ -24,7 +24,7 @@ export default function Hero() {
 					<div className="wrapper">
 						<h1 className="title-item">
 							{' '}
-							מצבעים קריאות שירות באזור השרון והמרכז.
+							מבצעים קריאות שירות באזור השרון והמרכז.
 						</h1>
 						<img className="img-item" src={electricity}></img>
 					</div>

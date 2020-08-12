@@ -8,8 +8,18 @@ export default function Contact_popup() {
 			<img className="contact-img" src={logo} alt="logo"></img>
 			<p className="contact-name">זיו ודולב</p>
 			<img className="contact-5star" src={stars} alt="stars"></img>
-			<button className="contact-PN">לחץ כאן לשיחה קולית</button>
-			<button className="contact-WA">לחץ כאן לשליחת הודעה ואטספ</button>
+			<a className="Phonebox" href="tel:+972522222757">
+				<button className="contact-PN">לחץ כאן לשיחה קולית</button>
+			</a>
+
+			<a
+				className="whatsappbox"
+				href="https://api.whatsapp.com/send?phone=972522222757"
+			>
+				<button className="contact-WA">
+					לחץ כאן לשליחת הודעה ואטספ
+				</button>
+			</a>
 		</div>
 	);
 }
