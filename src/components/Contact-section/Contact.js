@@ -25,13 +25,20 @@ export default function Contact() {
 							src={phone_logo}
 							alt="phone_logo"
 						></img>
-						זיו 0528055919 <br></br>
+						<a className="" href="tel:+972528055919">
+							זיו - 0528055919
+						</a>
+						<br></br>
 						<img
 							className="icon"
 							src={phone_logo}
 							alt="phone_logo"
 						></img>
-						דולב 0522222757
+						<a className="" href="tel:+972522222757">
+							דולב - 0522222757
+						</a>
+						<br />
+						לא בשבת.
 					</div>
 				</div>
 				<img src={BC} className="business_card" alt="logo"></img>

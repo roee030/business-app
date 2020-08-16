@@ -33,7 +33,7 @@ export default function Hero() {
 					<div className="wrapper">
 						<h1 className="title-item">
 							{' '}
-							אנו מתקינים, מתכנתים ומוכרים ציוד חכם לבית.
+							מתקינים, מתכנתים ומוכרים ציוד חכם לבית.
 						</h1>
 						<img className="img-item" src={controlling}></img>
 					</div>
@@ -41,7 +41,7 @@ export default function Hero() {
 				<div className="item">
 					<div className="wrapper">
 						<h1 className="title-item">
-							אנו דואגים לכיסוי רשת איכותית ומלאה בכל הבית ובחוץ.
+							דואגים לכיסוי רשת איכותית ומלאה בכל הבית ומחוצה לו.
 						</h1>
 						<img className="img-item" src={network}></img>
 					</div>

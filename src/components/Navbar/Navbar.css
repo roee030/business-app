@@ -101,5 +101,9 @@
 	}
 	.navbar__religion__text {
 		margin-right: 2rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 14px;
 	}
 }
